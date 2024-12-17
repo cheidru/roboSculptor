@@ -1,0 +1,86 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3F0AF;
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  background-color: #FBF6E9;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;  
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.5rem;  
+}
+
+.text-field {
+  width: 20rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+button {
+  align-self: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid darkgray;
+  cursor: pointer;
+}
+
+#normal-font {
+  height: 2rem;  
+  background-color: rgb(243, 242, 242);
+  padding: 1px 2px;
+  /* border: 1px solid black; */
+}
+
+#input-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+#clear-input {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+  background-color: darkgray;
+  background-image: url('./assets/cross-bare.svg');
+  background-size: cover;
+  cursor: pointer;
+}
+
+#clear-input:hover {
+  background-color: rgb(82, 81, 81);
+}
