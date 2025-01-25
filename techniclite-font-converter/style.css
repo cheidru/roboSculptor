@@ -41,7 +41,8 @@ main {
 }
 
 .text-field {
-  width: 20rem;
+  min-width: 20rem;
+  width: auto;
   line-height: 1.5rem;
   font-size: 1.5rem;
 }
