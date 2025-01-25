@@ -6,13 +6,14 @@ const delta = 61440;
 
 btn.addEventListener('click', () => {
   let result = '';
+  
   for (let i = 0; i < originalText.value.length; i++) {
     result += String.fromCharCode(originalText.value.charCodeAt(i) - delta);
-    console.log(result);
+
   }
 
   translatedText.textContent = result;
-  // console.log(originalText.value.charCodeAt(0), originalText.value.charCodeAt(1));
+  console.log(originalText.value.charCodeAt(0), originalText.value.charCodeAt(1));
   // translatedText.textContent = String.fromCharCode(originalText.value.charCodeAt(0) - delta);
 })
 
